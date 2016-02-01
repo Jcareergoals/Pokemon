@@ -12,6 +12,7 @@
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" 
 	integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="../assets/css/styles.css">
 </head>
 <body>
 	<div class="container">
@@ -21,7 +22,7 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-xs-10 col-xs-offset-1">
+			<div class="col-xs-11 col-xs-offset-1">
 				<p>Below, are some pokemons from PokeAPI</p>
 			</div>
 		</div>
@@ -29,7 +30,7 @@
 			<div class="col-xs-10 col-xs-offset-1">
 				<? for($x = 1; $x < 156; $x++) 
 				{?>
-					<img class='pokemon' id="" src="http://pokeapi.co/media/img/<? echo $x;?>.png" width='100px' height='100px'>
+					<img class='pokemon' src="http://pokeapi.co/media/img/<? echo $x;?>.png" width='100px' height='100px'>
 				<?} ?>
 			</div>
 		</div>
