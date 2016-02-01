@@ -1,0 +1,14 @@
+	body {
+		text-align: center;
+		background-color: silver;
+		background-image: url('../grass.jpg');
+		background-size: cover;
+		background-position: repeat;
+		background-attachment: fixed;
+	}
+	h1 { color: white; }
+	p { .
+		color: red;
+		text-shadow: 0px 0px 6px orange;
+	}
+	img:hover { box-shadow:  0px 0px 25px white inset; }
