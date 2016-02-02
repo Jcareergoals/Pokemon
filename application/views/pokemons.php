@@ -14,7 +14,7 @@
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" 
 	integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-	<!-- <link rel="stylesheet" type="text/css" href="../assets/css/styles.css"> -->
+	<link rel="stylesheet" type="text/css" href="../assets/css/styles.css">
 	<script type="text/javascript">
 		$(document).ready(function(){
 			$('img').on('click', function(){
@@ -39,39 +39,6 @@
 			})
 		})
 	</script>
-	<style type="text/css">
-	body {
-		background-color: silver;
-		background-image: url('../assets/grass.jpg');
-		background-size: cover;
-		background-position: repeat;
-		background-attachment: fixed;
-	}
-	h1, .header, .header p, .pokedex h4{
-		text-align: center;
-		color: white;
-	}
-	.header p { 
-		color: red;
-		text-shadow: 0px 0px 6px orange;
-	}
-	img:hover { box-shadow:  0px 0px 25px white inset; }
-	.pokedex {
-		border: 6px solid red;  
-		min-height: 500px; 
-		max-width: 300px; 
-		overflow: auto; 
-		background-color: rgba(255,130,0,.3); 
-		position: fixed;
-		text-align: left;
-	}
-		.description { color: white;}
-	h5 {
-		font-weight: bold; 
-		text-align: left;
-		color: orange;
-	}
-	</style>
 </head>
 <body>
 	<div class="container">

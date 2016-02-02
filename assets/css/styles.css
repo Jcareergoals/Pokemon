@@ -1,14 +1,31 @@
 	body {
-		text-align: center;
 		background-color: silver;
 		background-image: url('../grass.jpg');
 		background-size: cover;
 		background-position: repeat;
 		background-attachment: fixed;
 	}
-	h1 { color: white; }
-	p { .
+	h1, .header, .header p, .pokedex h4{
+		text-align: center;
+		color: white;
+	}
+	.header p { 
 		color: red;
 		text-shadow: 0px 0px 6px orange;
 	}
 	img:hover { box-shadow:  0px 0px 25px white inset; }
+	.pokedex {
+		border: 6px solid red;  
+		min-height: 500px; 
+		max-width: 300px; 
+		overflow: auto; 
+		background-color: rgba(255,130,0,.3); 
+		position: fixed;
+		text-align: left;
+	}
+		.description { color: white;}
+	h5 {
+		font-weight: bold; 
+		text-align: left;
+		color: orange;
+	}
