@@ -1,8 +1,9 @@
 	body {
 		background-color: silver;
 		background-image: url('../grass.jpg');
-		background-size: auto;
-		background-repeat: repeat-y;
+		background-size: cover; 
+		background-attachment: fixed;
+		background-repeat: no-repeat;
 	}
 	h1, .header, .header p, .pokedex h4{
 		text-align: center;
