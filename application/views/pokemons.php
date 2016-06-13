@@ -20,21 +20,18 @@
 			$('img').on('click', function(){
 				var id = $(this).attr('id');
 				$.get('http://pokeapi.co/api/v1/pokemon/'+id+'/', function(pokemon){
-					console.log(pokemon);
-					var name = pokemon.name
+					// console.log(pokemon);
 					var types = pokemon.types;
-					var	height = pokemon.height; 
-					var weight = pokemon.weight;
 					var type = "<h5>Types</h5><ul>";
-					for(var x = 0; x < types.length; x++){
+					for(x in types){
 						type += "<li class='description'>"+types[x].name+"</li>";
 					}
 					type += "</ul>";
 					
-					$('.pokedex').html("<h4><label>"+name+"</label></h4>");
+					$('.pokedex').html("<h4><label>"+pokemon.name+"</label></h4>");
 					$('.pokedex').append("<img class='col-xs-offset-3' src='http://pokeapi.co/media/img/"+id+".png'></img>");
 					$('.pokedex').append(type);
-					$('.pokedex').append("<h5>Height</h5><span class='description'>"+height+"</span><h5>Weight</h5><span class='description'>"+weight+"</span>");
+					$('.pokedex').append("<h5>Height</h5><span class='description'>"+pokemon.height+"</span><h5>Weight</h5><span class='description'>"+pokemon.weight+"</span>");
 				}, 'json')
 			})
 		})
