@@ -4,7 +4,6 @@
 	<title>PKMons</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="shortcut icon" href="../assets/pokeball.png"> <!-- Favicon -->
 	<!-- SEO -->
 	<meta name="author" content="Jose Chery">
 	<meta name="description" content="Are you a Pok&eacute;mon Go player? Do you love Pok&eacute;mons? PKMon.com is the perfect place to get 
@@ -26,6 +25,7 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" 
 	integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 	<link rel="stylesheet" type="text/css" href="../assets/css/styles.css"> <!-- CSS -->
+	<link rel="shortcut icon" href="../assets/pokeball.png"> <!-- Favicon -->
 	<script src="../assets/js/pokemons.js"></script> <!-- JavaScript -->
 </head>
 <body>

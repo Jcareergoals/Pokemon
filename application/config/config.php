@@ -16,7 +16,7 @@
 | environments.
 |
 */
-$config['base_url'] = 'http://www.pkmons.com/';
+$config['base_url'] = '';
 
 /*
 |--------------------------------------------------------------------------
