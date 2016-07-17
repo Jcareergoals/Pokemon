@@ -1,9 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Pokemons</title>
+	<title>PKMons</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="../assets/pokeball.png"> <!-- Favicon -->
+	<!-- SEO -->
+	<meta name="author" content="Jose Chery">
+	<meta name="description" content="Are you a Pok&eacute;mon Go player? Do you like Pok&eacute;mons? PKMon.com is the perfect place to get 
+	instant pokemon information that can assist you on your journey.">
+	<meta name="keywords" content="Jose Chery, Pokemon Go, Pokemon Go Fort Myers, Pokemon Go Cape Coral, Pokemon Go Naples, Pokemon Go Lehigh Acres,
+	Web Developer Fort Myers, Web Developer Naples, Web Developer Cape Coral, Web Developer Lee County, SoftWare Engineer Fort Myers, 
+	Software Engineer Naples, Software Engineer Lee County, Software Engineer, Web Developer, Programmer Fort Myers, Programmer Naples, 
+	Full Stack Engineer, Full Stack Engineer Fort Myers, Full Stack Engineer Naples, Full Stack Engineer Florida, Junior Web Developer, 
+	Full Stack Web Developer Fort Myers, Junior Web Developer Fort Myers, Jr Web developer fort myers, jr web developer Naples">
 	<!-- Jquery library -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
 	<!-- Latest compiled and minified CSS -->
@@ -15,9 +25,8 @@
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" 
 	integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-	<!-- CSS -->
-	<link rel="stylesheet" type="text/css" href="../assets/css/styles.css">
-	<script src="../assets/js/pokemons.js"></script>
+	<link rel="stylesheet" type="text/css" href="../assets/css/styles.css"> <!-- CSS -->
+	<script src="../assets/js/pokemons.js"></script> <!-- JavaScript -->
 </head>
 <body>
 	<div class="container-fluid col-md-10 col-md-offset-1">
