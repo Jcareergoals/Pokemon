@@ -7,7 +7,7 @@
 	<link rel="shortcut icon" href="../assets/pokeball.png"> <!-- Favicon -->
 	<!-- SEO -->
 	<meta name="author" content="Jose Chery">
-	<meta name="description" content="Are you a Pok&eacute;mon Go player? Do you like Pok&eacute;mons? PKMon.com is the perfect place to get 
+	<meta name="description" content="Are you a Pok&eacute;mon Go player? Do you love Pok&eacute;mons? PKMon.com is the perfect place to get 
 	instant pokemon information that can assist you on your journey.">
 	<meta name="keywords" content="Jose Chery, Pokemon Go, Pokemon Go Fort Myers, Pokemon Go Cape Coral, Pokemon Go Naples, Pokemon Go Lehigh Acres,
 	Web Developer Fort Myers, Web Developer Naples, Web Developer Cape Coral, Web Developer Lee County, SoftWare Engineer Fort Myers, 
